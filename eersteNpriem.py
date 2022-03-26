@@ -4,7 +4,7 @@ i = 1
 teller = 1
 
 while teller <= x:
-   if ispriem(i):
+   if ispriem(i) == True:
       regel = str(teller) + "e priemgetal: " + str(i)
       print(regel) 
       teller += 1
